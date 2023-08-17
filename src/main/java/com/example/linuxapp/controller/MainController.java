@@ -16,7 +16,7 @@ public class MainController {
 
     @GetMapping("/")
     public String helloWorld() {
-        return "Hello after deploy from github, guest!";
+        return "New test!";
     }
 
     @GetMapping("/getAll")
