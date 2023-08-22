@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'Github-azure'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_19B7E59CEA0247FEA1D87F434555B74B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E5C9188255D94839A1009DC11480C238 }}
           package: '*.war'
