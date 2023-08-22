@@ -12,11 +12,11 @@ public class MainController {
 
     private final ProductsRepo productsRepo;
 
-    @Value("${hello.message}")
-    private String hello;
+//    @Value("${hello.message}")
+//    private String hello;
     @GetMapping("/")
     public String helloWorld() {
-        return hello;
+        return "hello";
     }
 
     @GetMapping("/getAll")
